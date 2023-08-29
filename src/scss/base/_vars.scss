@@ -1,0 +1,25 @@
+:root {
+	//ширина контейнера и отступы контейнера
+	--container-width: 1200px;
+	--container-padding: 15px;
+
+	//основной шрифт и акцентный шрифт
+	--font-main: 'Poppins', sans-serif;
+	--font-accent: 'Playfair Display', serif;
+
+	//цвет бг, цвет текста, акцентный цвет
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #ac182c;
+
+	//размеры для адаптивной верстки
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+//цвет бг и цвет текста для теемной версии сайта
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

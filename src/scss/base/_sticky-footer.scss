@@ -1,0 +1,18 @@
+//блок со стики футером 
+//(он делается так, чтобы футер был всегда низу)
+//подходит для каких-то маленьких страниц, чтобы футер был внизу
+
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.footer {
+	padding: 60px 0;
+	background-color: #e3e3e3;
+}

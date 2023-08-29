@@ -1,0 +1,11 @@
+html {
+	//плавная прокрутка через якорные ссылки на странице
+	scroll-behavior: smooth;
+}
+
+body {
+	//цет фона, цвет текста, фонт фемили
+	background-color: var(--page-bg);
+	color: var(--text-color);
+    font-family: var(--font-main);
+}
